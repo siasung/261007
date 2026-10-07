@@ -1,0 +1,105 @@
+================================================================
+대박케어 랜딩 페이지 이미지 생성 프롬프트
+================================================================
+
+[사용 방법]
+1. 아래 [PROMPT] 줄 바로 다음 문단(영문)을 그대로 복사해서
+   Midjourney / DALL·E / Firefly / Gemini 같은 이미지 생성 도구에 붙여넣으세요.
+2. 생성한 이미지는 index.html과 같은 폴더 안의 images 폴더에
+   [파일명]에 적힌 이름 그대로(JPG, 긴 변 1600px 이하) 저장하면 페이지에 표시됩니다.
+   원본은 images/original/ 에 보관합니다.
+
+[현재 적용된 이미지 (원본 → 웹용)]
+   original/1.png      → hero.jpg                (#1)
+   original/2.png      → service-health.jpg      (#2)
+   original/3.png      → service-finance.jpg     (#3)
+   original/4.png      → service-family.jpg      (#4)
+   original/5.png      → service-retirement.jpg  (#5, 하단 워터마크 잘라냄)
+   original/6.png      → apply.jpg               (#6, 우측 워터마크 잘라냄)
+   original/대박케어.png → logo.png(전체, 투명 배경) · logo-symbol.png(심볼, 내비/푸터용)
+3. Midjourney를 쓸 때는 프롬프트 끝에 [MJ 옵션]을 붙이세요.
+
+[공통 톤]
+파스텔 민트(#A8DCD1) · 라벤더(#C9C3E8) · 피치(#F7CFC0) · 아이보리 배경,
+미니멀하고 여백이 많은 구성, 부드러운 자연광, 따뜻하고 신뢰감 있는 분위기,
+글자 · 로고 · 워터마크 없음
+
+
+----------------------------------------------------------------
+#1 히어로 메인 이미지
+----------------------------------------------------------------
+[파일명] images/hero.jpg
+[위치] 첫 화면 오른쪽 큰 이미지
+[비율] 10:11 (세로형, 예: 1000x1100)
+[MJ 옵션] --ar 10:11 --style raw --v 7
+
+[PROMPT]
+A warm, minimal lifestyle photograph of a friendly Korean consultant in her 40s talking with a smiling Korean couple in their 50s at a light wooden table in a bright, airy consultation room, soft natural window light, pastel color palette of mint green, lavender and peach, ivory walls, a small potted plant and a cup of tea on the table, calm and trustworthy atmosphere, clean composition with generous negative space, shallow depth of field, editorial photography, high resolution, no text, no logo, no watermark
+
+
+----------------------------------------------------------------
+#2 서비스 카드 - 건강
+----------------------------------------------------------------
+[파일명] images/service-health.jpg
+[위치] 서비스 섹션 첫 번째 카드 (민트 배경)
+[비율] 5:4 (예: 1000x800)
+[MJ 옵션] --ar 5:4 --style raw --v 7
+
+[PROMPT]
+Minimal soft 3D illustration of health and wellness, a pastel mint heart with a gentle heartbeat line, a stethoscope, a small green leaf and a water glass arranged on a soft mint green background, rounded clay-like shapes, matte texture, soft studio lighting with subtle shadows, pastel mint, white and light lavender color palette, clean centered composition with plenty of empty space, calm and caring mood, no text, no logo, no watermark
+
+
+----------------------------------------------------------------
+#3 서비스 카드 - 재무
+----------------------------------------------------------------
+[파일명] images/service-finance.jpg
+[위치] 서비스 섹션 두 번째 카드 (연노랑 배경)
+[비율] 5:4 (예: 1000x800)
+[MJ 옵션] --ar 5:4 --style raw --v 7
+
+[PROMPT]
+Minimal soft 3D illustration of personal finance planning, a pastel piggy bank, a small stack of round coins, a rising bar chart and a calculator arranged on a soft butter yellow background, rounded clay-like shapes, matte texture, soft studio lighting with subtle shadows, pastel yellow, mint and peach color palette, clean centered composition with plenty of empty space, stable and reassuring mood, no text, no numbers, no logo, no watermark
+
+
+----------------------------------------------------------------
+#4 서비스 카드 - 가족
+----------------------------------------------------------------
+[파일명] images/service-family.jpg
+[위치] 서비스 섹션 세 번째 카드 (피치 배경)
+[비율] 5:4 (예: 1000x800)
+[MJ 옵션] --ar 5:4 --style raw --v 7
+
+[PROMPT]
+Minimal soft 3D illustration of family care, a small cozy pastel house with three generations of simple rounded figures (grandparent, parent and child) holding hands in front of it, a small heart floating above, on a soft peach background, rounded clay-like shapes, matte texture, soft studio lighting with subtle shadows, pastel peach, coral and cream color palette, clean centered composition with plenty of empty space, warm and loving mood, no text, no logo, no watermark
+
+
+----------------------------------------------------------------
+#5 서비스 카드 - 은퇴
+----------------------------------------------------------------
+[파일명] images/service-retirement.jpg
+[위치] 서비스 섹션 네 번째 카드 (라벤더 배경)
+[비율] 5:4 (예: 1000x800)
+[MJ 옵션] --ar 5:4 --style raw --v 7
+
+[PROMPT]
+Minimal soft 3D illustration of a happy retirement, a cozy armchair next to a small potted plant, a watering can, a travel suitcase and a gentle rising sun, on a soft lavender background, rounded clay-like shapes, matte texture, soft studio lighting with subtle shadows, pastel lavender, peach and mint color palette, clean centered composition with plenty of empty space, peaceful and hopeful mood, no text, no logo, no watermark
+
+
+----------------------------------------------------------------
+#6 상담 신청 섹션 이미지
+----------------------------------------------------------------
+[파일명] images/apply.jpg
+[위치] 상담 신청 폼 왼쪽 안내 영역 하단 (PC 화면에서만 표시)
+[비율] 16:9 (예: 1600x900)
+[MJ 옵션] --ar 16:9 --style raw --v 7
+
+[PROMPT]
+A calm, minimal interior photograph of an empty, welcoming consultation corner, two soft pastel armchairs facing each other beside a small round table with two cups of tea, a notebook and a pen, a large window with sheer curtains letting in soft morning light, potted green plants, pastel mint, lavender and peach accents on an ivory background, peaceful and private atmosphere, generous negative space, editorial interior photography, high resolution, no people, no text, no logo, no watermark
+
+
+================================================================
+[참고] 3D 일러스트 대신 사진 스타일로 통일하고 싶다면
+#2~#5 프롬프트의 "Minimal soft 3D illustration of" 를
+"Minimal still life photograph of" 로 바꾸고
+"rounded clay-like shapes, matte texture," 를 지우면 됩니다.
+================================================================
